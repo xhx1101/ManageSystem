@@ -1,0 +1,131 @@
+/*.pic{
+    width: 80px;
+    height: 100%;
+    float: left;
+}
+/*
+标题背景设置
+ */
+/*.LoginTittle{
+    width: 80%;
+    height: 100%;
+    font-family:verdana;
+    font-size:45px;
+    color: #040d07;
+    left:180px;
+    position:absolute;
+    top:12px;
+}
+/*
+标题背景设置
+ */
+.container_title {
+    height: 100px;
+    width: 98.5%;
+    background: #2B8FFF;
+}
+
+.titleA{
+    margin-left:20%;
+}
+/*
+左边导航栏的部分设置
+ */
+.container_navigation {
+    margin-top: 1px;
+    background: #dfeaea;
+    width:98.5%;
+    height: 4%;
+}
+
+.container_main{
+    width: 98.5%;
+    height: 81%;
+}
+/*
+导航栏的小标题的设置
+ */
+.tab {
+    opacity: .7;
+    padding-left: 0px;
+    font-weight: 400;
+    display: block;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    font-family: proxima-nova,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #969a7c;
+    text-shadow: 0 1px 0 rgba(255,255,255,.15);
+    border: 1px solid rgba(0,0,0,.1);
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-clip: padding-box;
+    background-color: #f2f2f2;
+    background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.05) -17%,rgba(255,255,255,.05) 117%);
+}
+/*
+横向布局
+ */
+.row{
+    width: 100%;
+    height: 95%;
+    display: flex;
+}
+/*
+左边块的部分设置
+ */
+.left-column{
+    width: 15%;
+    height: 90%;
+}
+/*
+右边块的位置
+ */
+.right-column{
+    width: 90%;
+    height: 100%;
+    margin-left: 0%;
+
+}
+.design a {
+    line-height: 20px;
+    background-color: #f6f4f0;
+    text-decoration: none;
+    display: block;
+    padding: 4px;
+    border-bottom: 1px solid #efefef;
+    color: #000;
+}
+a{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+a:hover{
+    opacity: .8;
+    color: #7cb4f7;
+}
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #f6f6f6 url(/images/bg.gif) no-repeat;
+    color: #333;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+iframe{
+    width:100%;
+    height: 100%;
+
+}

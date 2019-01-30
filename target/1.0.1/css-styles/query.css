@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 5px;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+/*
+副标题的位置样式
+ */
+table {
+    font-weight: normal;
+    background-color: #F9FCF3;
+    border: 1px solid #7cb4f7;
+}
+table {
+    display: table;
+    border-collapse: separate;
+}
+.nobord td {
+    border-width: 0px!important;
+}
+.tablem td {
+    border: 1px solid #7cb4f7;
+}
+td {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+img{
+    width: 22px;
+    height: 21px;
+    vertical-align: middle;
+}
+.link {
+    border: 1px solid #7cb4f7;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+input.iptbtn {
+    height: 20px;
+    width: 60px;
+}
+input{
+    border: 1px solid #7cb4f7;
+    background-color: #ffffff;
+    padding: 1px 6px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    box-sizing: border-box;
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    -webkit-writing-mode: horizontal-tb !important;
+}

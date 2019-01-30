@@ -1,0 +1,108 @@
+.advice{
+    width:100%;
+    height:40%;
+    background-color:#CCCCCC;
+}
+
+.advice .table{
+
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tab .table {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table .tr {
+    height: 50px;
+}
+
+table .td {
+    width: 120px;
+}
+
+.bg1 {
+    background: #ccc;
+}
+
+.table .tr:hover {
+    background: #09C;
+    background: blanchedalmond;
+}
+
+.bg2 {
+    background: #999;
+}
+
+.t1,
+.t2,
+.t3,
+.t4,
+.b1,
+.b2,
+.b3,
+.b4,
+.tab {
+    display: block;
+    overflow: hidden;
+}
+
+.t1,
+.t2,
+.t3,
+.b1,
+.b2,
+.b3 {
+    height: 1px;
+}
+
+.t2,
+.t3,
+.t4,
+.b2,
+.b3,
+.b4,
+.tab {
+    border-left: 2px solid #f6f;
+    border-right: 2px solid #f6f;
+}
+
+.t1,
+.b1 {
+    margin: 0 5px;
+    background: #F6F;
+}
+
+.t2,
+.b2 {
+    margin: 0 3px;
+    border-width: 2px;
+}
+
+.t3,
+.b3 {
+    margin: 0 2px;
+}
+
+.t4,
+.b4 {
+    height: 0px;
+    margin: 0 1px;
+}
+
+.tab {
+    height: 350px;
+    background: #F7F8F9;
+    padding-top  :0px;
+}
+
+.tab_width {
+    width: 490px;
+    /*margin: 0 auto;*/
+    margin-top: -480px;
+    cursor: pointer;
+}
